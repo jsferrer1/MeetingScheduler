@@ -1,8 +1,8 @@
 {"schedules":
 [{	"id": "1",
 	"name": "John",
-	"timezone": "PHT",
-	"workhours": "9am to 5pm",
+	"timezone": "UTC",
+	"workhours": "8am to 5pm",
 	"meetings": [
     {
 		"date": "2015-10-26",
@@ -17,8 +17,8 @@
 },
 {	"id": "2",
 	"name": "Joshua",
-	"timezone": "EST",
-	"workhours": "9am to 5pm",
+	"timezone": "UTC",
+	"workhours": "8am to 5pm",
 	"meetings": [
     {
 		"date": "2015-10-26",
@@ -28,8 +28,8 @@
 },
 {	"id": "3",
 	"name": "Jericho",
-	"timezone": "EST",
-	"workhours": "9am to 5pm",
+	"timezone": "UTC",
+	"workhours": "8am to 5pm",
 	"meetings": [{
 		"date": "2015-10-26",
 		"starttime": "02:00pm",
@@ -48,8 +48,8 @@
 },
 {	"id": "4",
 	"name": "James",
-	"timezone": "EST",
-	"workhours": "9am to 5pm",
+	"timezone": "UTC",
+	"workhours": "8am to 5pm",
 	"meetings": []
 }]
 }

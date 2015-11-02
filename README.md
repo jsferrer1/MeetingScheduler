@@ -23,7 +23,7 @@ This application is a solution to the hard task of arranging a meeting to invite
   1. Clone the `MeetingScheduler` repository or simply save the zip file to your local folder.
   
      ```
-	 $ git clone <https://github.com/jsferrer1/MeetingScheduler.git>
+	 $ git clone https://github.com/jsferrer1/MeetingScheduler.git
      $ cd MeetingScheduler
      ```
 

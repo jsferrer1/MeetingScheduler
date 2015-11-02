@@ -6,20 +6,25 @@
 	"meetings": [
     {
 		"date": "2015-10-26",
-		"starttime": "09:00am",
-		"endtime": "10:00am"
+		"starttime": "10:00am",
+		"endtime": "11:00am"
 	},
 	{
 		"date": "2015-10-26",
-		"starttime": "10:00am",
-		"endtime": "11:00am"
+		"starttime": "11:00am",
+		"endtime": "12:00pm"
 	}]
 },
 {	"id": "2",
 	"name": "Joshua",
 	"timezone": "EST",
 	"workhours": "9am to 5pm",
-	"meetings": []
+	"meetings": [
+    {
+		"date": "2015-10-26",
+		"starttime": "10:00am",
+		"endtime": "11:00am"
+	}]
 },
 {	"id": "3",
 	"name": "Jericho",
@@ -30,11 +35,11 @@
 		"starttime": "02:00pm",
 		"endtime": "03:00pm"
 	},
-    {
+	{
 		"date": "2015-10-26",
 		"starttime": "03:00pm",
 		"endtime": "04:00pm"
-	},
+	},    
 	{
 		"date": "2015-10-26",
 		"starttime": "04:00pm",

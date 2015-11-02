@@ -32,13 +32,18 @@ This application is a solution to the hard task of arranging a meeting to invite
      ```
      attendees=John,Joshua,Jericho,James
      meetingLength=60
-     possibleSlots=3
+     possibleSlots=5
+     startTimeFrame=2015-10-26 08:00am
+     endTimeFrame=2015-10-26 5:00pm
      ```
      
      **Where**  
      attendees : list of attendees  
      meetingLength : meeting length (in minutes)  
      possibleSlots : Number of possible time-slots that should be found by program  
+     startTimeFrame : Start of the timeframe
+     endTimeFrame : End of timeframe
+     
 
   3. Edit the `schedules.json` file to include the details of the participants including their name, timezone, work hour, and meetings.  
 
@@ -46,7 +51,7 @@ This application is a solution to the hard task of arranging a meeting to invite
 	 {"schedules":
 	 [{	"id": "1",
 	 	"name": "John",
-	 	"timezone": "PHT",
+	 	"timezone": "UTC",
 	 	"workhours": "9am to 5pm",
 	 	"meetings": [
 	    { 
@@ -91,3 +96,8 @@ This application is a solution to the hard task of arranging a meeting to invite
 	 ==> 3 participants(s) are able to attend on 2015-10-26 10:00AM to 11:00AM; Available: Joshua,Jericho,James; Unavailable: John.
 	 ==> 3 participants(s) are able to attend on 2015-10-26 11:00AM to 12:00PM; Available: Joshua,Jericho,James; Unavailable: John.
 	 ```
+
+## Known Issue
+    - If startTimeframe is 8:30am and meetingLength is 60minutes, some timeslots will not show on the lists of available timeslots. Workaround is to make the meetingLength more granular - that is, set the meetingLength to 30 minutes. 
+
+     

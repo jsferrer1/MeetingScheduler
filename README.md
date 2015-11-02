@@ -15,8 +15,8 @@ This application is a solution to the hard task of arranging a meeting to invite
 ## Pre-Requisites
 
   - JDK 1.7
-  - gson-2.4.jar
-  - commons-lang3-3.4.jar
+  - gson-2.4.jar (included on the MeetingScheduler.jar)
+  - commons-lang3-3.4.jar (included on the MeetingScheduler.jar)
 
 ## Running the Program
 
@@ -41,7 +41,7 @@ This application is a solution to the hard task of arranging a meeting to invite
      attendees : list of attendees  
      meetingLength : meeting length (in minutes)  
      possibleSlots : Number of possible time-slots that should be found by program  
-     startTimeFrame : Start of the timeframe
+     startTimeFrame : Start of the timeframe  
      endTimeFrame : End of timeframe
      
 

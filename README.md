@@ -74,7 +74,7 @@ This application is a solution to the hard task of arranging a meeting to invite
      $ java -jar MeetingScheduler.jar
      ``` 
     
-  5. Output should either show the available timeslots or possible timeslots with maximum attendees.
+  5. Output should either show the available timeslots or possible timeslots with maximum attendees. Note that the application will skip the lunch hours from 12:00pm to 1:00pm.
 
 	 Output with available timeslots:
   

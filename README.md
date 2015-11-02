@@ -65,7 +65,7 @@ This application is a solution to the hard task of arranging a meeting to invite
      **Where**  
      meetings : time-slots booked or scheduled meetings
      
-     Note: It is assumed that `meetings` are already converted to UTC timezone.  
+     Note: It is assumed that `meetings` are already pre-converted to UTC timezone.  
      
      
   4. Run the java application  

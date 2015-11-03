@@ -2,7 +2,7 @@
 [{	"id": "1",
 	"name": "John",
 	"timezone": "UTC",
-	"workhours": "8am to 5pm",
+	"workhours": "8am to 6pm",
 	"meetings": [
     {
 		"date": "2015-10-26",
@@ -18,7 +18,7 @@
 {	"id": "2",
 	"name": "Joshua",
 	"timezone": "UTC",
-	"workhours": "8am to 5pm",
+	"workhours": "8am to 6pm",
 	"meetings": [
     {
 		"date": "2015-10-26",
@@ -29,7 +29,7 @@
 {	"id": "3",
 	"name": "Jericho",
 	"timezone": "UTC",
-	"workhours": "8am to 5pm",
+	"workhours": "8am to 6pm",
 	"meetings": [{
 		"date": "2015-10-26",
 		"starttime": "02:00pm",
@@ -49,7 +49,7 @@
 {	"id": "4",
 	"name": "James",
 	"timezone": "UTC",
-	"workhours": "8am to 5pm",
+	"workhours": "8am to 6pm",
 	"meetings": []
 }]
 }

@@ -34,7 +34,9 @@ This application is a solution to the hard task of arranging a meeting to invite
      meetingLength=60
      possibleSlots=5
      startTimeFrame=2015-10-26 08:00am
-     endTimeFrame=2015-10-26 5:00pm
+     endTimeFrame=2015-10-26 6:00pm
+     startWorkHour=08:00am
+     endWorkHour=06:00pm
      ```
      
      **Where**  
@@ -43,6 +45,8 @@ This application is a solution to the hard task of arranging a meeting to invite
      possibleSlots : Number of possible time-slots that should be found by program  
      startTimeFrame : Start of the timeframe  
      endTimeFrame : End of timeframe
+     startWorkHour : start of working hour
+     endWorkHour : end of working hour
      
 
   3. Edit the `schedules.json` file to include the details of the participants including their name, timezone, work hour, and meetings.  
@@ -63,7 +67,8 @@ This application is a solution to the hard task of arranging a meeting to invite
 	 ```
      
      **Where**  
-     meetings : time-slots booked or scheduled meetings
+     meetings : time-slots booked or scheduled meetings  
+     Other fields are self-explanatory.  
      
      Note: It is assumed that `meetings` are already pre-converted to UTC timezone.  
      
@@ -74,7 +79,7 @@ This application is a solution to the hard task of arranging a meeting to invite
      $ java -jar MeetingScheduler.jar
      ``` 
     
-  5. Output should either show the available timeslots or possible timeslots with maximum attendees. Note that the application will skip the lunch hours from 12:00pm to 1:00pm.
+  5. Output should either show the available timeslots or possible timeslots with maximum attendees. Note that the application will skip the lunch hour (12:00pm to 1:00pm) and after office hours (6:00pm onwards).
 
 	 Output with available timeslots:
   
